@@ -9,7 +9,7 @@ Build a Docker image from openjdk:8-jdk-alpine and run burst-team/burstcoin rele
 
 ```sh
 # Build the Docker image.
-$ docker build -t burstcoin-docker
+$ docker build -t burstcoin-docker .
 
 # Create local directory for persistent conf and db.
 $ mkdir -p /var/burstcoin
