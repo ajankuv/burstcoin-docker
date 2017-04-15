@@ -20,6 +20,8 @@ $ docker start burstcoin
 
 ## Links
 
-https://github.com/burst-team/burstcoin *Burstcoin Core Development*
+https://github.com/burst-team/burstcoin *Burstcoin Core Development on GitHub*
 
 https://docs.docker.com/engine/admin/host_integration *Start containers automatically*
+
+https://hub.docker.com/r/_/openjdk/ *openjdk image on Docker Hub*
