@@ -3,7 +3,7 @@
 *Ship your burstcoin wallet with Docker*
 
 ## Info
-Build a Docker image from openjdk:8-jdk-alpine and run burst-team/burstcoin release 1.2.8.
+Build a Docker image from openjdk:8-jdk-alpine and run ~burst-team/burstcoin release 1.2.8~ updated with dawallet/burstcoin release 1.2.9c.
 
 ## Build
 
