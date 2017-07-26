@@ -1,13 +1,13 @@
 FROM openjdk:8-jdk-alpine
 
-ADD https://github.com/dawallet/burstcoin/releases/download/1.2.9c/burstcoin-1.2.9c.zip /app/burstcoin/
+ADD https://github.com/burst-team/burstcoin/releases/download/1.2.9/burstcoin-1.2.9.zip /app/burstcoin/
 
 COPY docker /app/burstcoin/docker
 
 WORKDIR /app/burstcoin
 
 RUN apk add --no-cache --no-progress unzip \
- && unzip burstcoin-1.2.9c.zip \
+ && unzip burstcoin-1.2.9.zip \
  && ./docker/finalize.ash \
  && apk del --no-progress unzip
 
