@@ -1,5 +1,7 @@
 FROM openjdk:8-jdk-alpine
 
+COPY docker /app/burstcoin/docker
+
 RUN apk add --no-cache --no-progress unzip \
  && ./docker/finalize.ash
 
@@ -7,8 +9,6 @@ ADD https://github.com/PoC-Consortium/burstcoin/releases/download/1.3.6cg/burstc
 
 RUN unzip burstcoin-1.3.6cg.zip \
  && apk del --no-progress unzip
-
-COPY docker /app/burstcoin/docker
 
 WORKDIR /app/burstcoin
 
