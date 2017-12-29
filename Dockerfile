@@ -8,7 +8,7 @@ WORKDIR /app/burstcoin
 
 RUN apk add --no-cache --no-progress unzip \
  && unzip burstcoin-1.3.6cg.zip \
- && mv /app/burstcoin/burst_db /data/
+ && mv /app/burstcoin/burst_db /data/ \
  && ./docker/finalize.ash \
  && apk del --no-progress unzip
 
