@@ -11,10 +11,8 @@ RUN apk add --no-cache --no-progress unzip \
  && ./docker/finalize.ash \
  && apk del --no-progress unzip
 
-COPY docker/brs.properties /app/burstcoin/conf
+COPY brs.properties /app/burstcoin/conf/
 
 VOLUME ["/data"]
-
 EXPOSE 8123 8125
-RUN /app/burstcoin/burst.sh
 ENTRYPOINT ["/app/burstcoin/docker/start.ash"]

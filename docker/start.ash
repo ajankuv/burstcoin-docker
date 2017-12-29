@@ -6,4 +6,4 @@ if ! test -d /data/conf; then
 	cp -a /app/burstcoin/conf /data/conf
 fi
 
-java -cp burst.jar:lib/*:/data/conf nxt.Nxt
+java -cp burst.jar:lib/*:/data/conf brs.Burst
