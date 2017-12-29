@@ -3,9 +3,13 @@
 *Ship your burstcoin wallet with Docker*
 
 ## Info
-Build a Docker image from openjdk:8-jdk-alpine and run burst-team/burstcoin release 1.2.9.
+Build a Docker image from openjdk:8-jdk-alpine and run PoC-Consortium/burstcoin release 1.3.6cg.
 
-This will be kept up to date with the newest releases.
+This will be kept up to date with the newest releases from PoC Consortium moving forward.
+
+Use this to support Dymaxion updates from PoC.
+
+NOTE: This uses the h2 db backend, no extra software needed.
 
 ## Build
 
@@ -25,9 +29,7 @@ $ docker start burstcoin
 
 ## Links
 
-https://github.com/burst-team/burstcoin *Burstcoin Core Development on GitHub*
-
-https://github.com/dawallet/burstcoin *Faster updates on wallets for fork issues*
+https://github.com/PoC-Consortium/burstcoin *Burstcoin Core Development from PoC on GitHub*
 
 https://docs.docker.com/engine/admin/host_integration *Start containers automatically*
 
