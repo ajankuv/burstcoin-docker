@@ -11,7 +11,7 @@ RUN apk add --no-cache --no-progress unzip \
  && ./docker/finalize.ash \
  && apk del --no-progress unzip
 
-COPY brs.properties /app/burstcoin/conf/
+COPY nxt-default.properties /app/burstcoin/conf/
 
 VOLUME ["/data"]
 EXPOSE 8123 8125
