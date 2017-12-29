@@ -16,5 +16,5 @@ COPY docker/brs.properties /app/burstcoin/conf
 VOLUME ["/data"]
 
 EXPOSE 8123 8125
-
+RUN /app/burstcoin/burst.sh
 ENTRYPOINT ["/app/burstcoin/docker/start.ash"]
