@@ -1,5 +1,7 @@
 FROM openjdk:8-jdk-alpine
 
+RUN mkdir -p /app/burstcoin/
+
 COPY docker /app/burstcoin/docker
 
 RUN apk add --no-cache --no-progress unzip \
