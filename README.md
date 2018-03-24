@@ -3,13 +3,15 @@
 *Ship your burstcoin wallet with Docker*
 
 ## Info
-Build a Docker image from openjdk:8-jdk-alpine and run PoC-Consortium/burstcoin release 1.3.6cg.
+Build a Docker image from openjdk:8-jdk-alpine and run PoC-Consortium/burstcoin release 2.0.0.
 
 This will be kept up to date with the newest releases from PoC Consortium moving forward.
 
 Use this to support Dymaxion updates from PoC.
 
 NOTE: This uses the h2 db backend, no extra software needed.
+
+*NOTE: If upgrading from older 1.3.6, you must remove the old h2 db and re-download for this new version.*
 
 ## Build
 
