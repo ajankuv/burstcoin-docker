@@ -1,6 +1,6 @@
 FROM openjdk:8-jdk-alpine
 
-ADD https://github.com/PoC-Consortium/burstcoin/releases/download/2.0.0/burstcoin-2.0.2.zip  /app/burstcoin/
+ADD https://github.com/PoC-Consortium/burstcoin/releases/download/2.0.2/burstcoin-2.0.2.zip  /app/burstcoin/
 
 COPY docker /app/burstcoin/docker
 
